@@ -3,12 +3,6 @@
 @Library('shared-library@master') _ //master or whatever branch
 
 pipeline{
-
-      agent {
-             none
-                }
-            }
-        
         stages{
 
               stage('maven build'){
